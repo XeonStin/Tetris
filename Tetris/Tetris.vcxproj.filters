@@ -1,0 +1,145 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="libGraphics">
+      <UniqueIdentifier>{8351c166-86fc-45ba-a0de-c1414006219b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SimpleGUI">
+      <UniqueIdentifier>{2ab5bd24-5cda-4877-8645-4b21948c778c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Tetris.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="cgraphics.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="cextgraph.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="eventProcess.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="soundEffect.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="classes.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libGraphics\exception.h">
+      <Filter>libGraphics</Filter>
+    </ClInclude>
+    <ClInclude Include="libGraphics\extgraph.h">
+      <Filter>libGraphics</Filter>
+    </ClInclude>
+    <ClInclude Include="libGraphics\gcalloc.h">
+      <Filter>libGraphics</Filter>
+    </ClInclude>
+    <ClInclude Include="libGraphics\genlib.h">
+      <Filter>libGraphics</Filter>
+    </ClInclude>
+    <ClInclude Include="libGraphics\graphics.h">
+      <Filter>libGraphics</Filter>
+    </ClInclude>
+    <ClInclude Include="libGraphics\random.h">
+      <Filter>libGraphics</Filter>
+    </ClInclude>
+    <ClInclude Include="libGraphics\simpio.h">
+      <Filter>libGraphics</Filter>
+    </ClInclude>
+    <ClInclude Include="libGraphics\strlib.h">
+      <Filter>libGraphics</Filter>
+    </ClInclude>
+    <ClInclude Include="variables.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SimpleGUI\imgui.h">
+      <Filter>SimpleGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="c++_to_c.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="save.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="cimgui.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundEffect.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="eventProcess.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="classes.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="libGraphics\exceptio.c">
+      <Filter>libGraphics</Filter>
+    </ClCompile>
+    <ClCompile Include="libGraphics\genlib.c">
+      <Filter>libGraphics</Filter>
+    </ClCompile>
+    <ClCompile Include="libGraphics\graphics.c">
+      <Filter>libGraphics</Filter>
+    </ClCompile>
+    <ClCompile Include="libGraphics\random.c">
+      <Filter>libGraphics</Filter>
+    </ClCompile>
+    <ClCompile Include="libGraphics\simpio.c">
+      <Filter>libGraphics</Filter>
+    </ClCompile>
+    <ClCompile Include="libGraphics\strlib.c">
+      <Filter>libGraphics</Filter>
+    </ClCompile>
+    <ClCompile Include="SimpleGUI\imgui.c">
+      <Filter>SimpleGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="c++_to_c.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="save.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="demo.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Tetris.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Tetris.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
